@@ -1,0 +1,226 @@
+*{
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-size: 1em;
+  color: #666;
+  background: #fff;
+  font-family: '맑은 고딕', sans-serif;
+}
+a{
+  list-style-type: none;
+  text-decoration: none;
+  color: #666;
+}
+ul{ list-style-type: none;}
+.clear{ clear: both;}
+.highlight{ color: skyblue;}
+#main_header{
+  position: relative;
+  width: 960px;
+  margin: 0px auto;
+  background: #eee;
+  overflow: hidden;
+}
+
+/* 탑 메뉴 */
+#main_header > #top_menu{
+  position: absolute;
+  right: 20px; 
+  top: 20px;
+  font-size: 0.8em;
+}
+
+/* 헤더 제목 */
+#header_group{
+  margin-top: 45px;
+  text-align: center;
+}
+#header_group h2{ font-size: 1em;}
+
+/* 검색창 */
+#main_header > form#s{
+  /* border: 1px solid red; */
+  width: 340px; 
+  height: 30px;
+  margin: 10px auto;
+  text-align: center;
+  display: table;
+  margin-bottom: 45px;
+}
+#s input{
+  border: 1px solid #ccc;
+  width: 280px;
+  height: 30px;
+  padding: 0px 5px;
+  margin-right: 4px;
+  display: block;
+  float: left;
+  vertical-align: middle;
+}
+#s #submit_btn{
+  border: 1px solid #ccc;
+  /* border-bottom: 1px; */
+  height: 30px;
+  display: block;
+  padding: 0px 10px;
+  vertical-align: middle;
+}
+
+/* 메인 메뉴 */
+#gnb{
+  /* border: 1px solid #ccc; */
+}
+#gnb > ul > li{
+  float: left;
+  width: 16.66%;
+}
+#gnb > ul > li > a{
+  display: block;
+  font-size: 0.9em;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;;
+  padding: 5px 10px;
+  background: #fff;
+}
+#gnb > ul > li:first-child > a{
+  border-left: 1px solid #ccc;
+}
+#gnb > ul > li > a > i{
+  float: right;
+  padding-top: 4px;
+  color: #999;
+}
+
+/* 메인 배너 */
+#main_banner{
+  width: 960px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+#main_banner img{
+  display: block;
+}
+
+/* 메인 목록 글 영역 */
+#main{
+  /* border: 1px solid #ccc; */
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#main ul{ 
+  list-style-type: disc;
+  list-style-position: inside;
+}
+#notice, #community, #review{
+  width: 33.33%;
+  float: left;
+  padding: 20px;
+  font-size: 0.8em;
+}
+
+/* 목록 제목 */
+#notice > h3,
+#community > h3,
+#review > h3{
+  float: left;
+  margin-bottom: 5px;
+}
+
+/* 목록 더보기  */
+#notice > .more,
+#community > .more,
+#review > .more{
+  float: right;
+}
+
+#notice > ul,
+#community > ul,
+#review > ul{
+  clear: both;
+  line-height: 1.6em;
+}
+
+#community ul li time{
+  float: right;
+}
+
+section#banners{
+  width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+section#banners > img{
+  margin-right: 20px;
+}
+section#banners > img:last-child{
+  margin-right: 0;
+}
+
+
+/* footer */
+#main_footer{
+  width: 960px;
+  margin: 0px auto;
+  margin-top: 40px;
+  font-size: 0.8em;
+  overflow: hidden;
+}
+.footer_nav{
+  text-align: center;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 8px 20px;
+  margin-bottom: 30px;
+}
+
+section.footer_section{
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+/* footer logo */
+.footer_left{
+  /* border: 1px solid red; */
+  float: left;
+  width: 33.33%;
+  text-align: center;
+}
+
+.footer_right{
+  /* border: 1px slid red; */
+  float: right;
+  width: 66.66%;
+}
+.footer_info1, .footer_info2{
+  /* border: 1px solid; */
+  float: left;
+  margin-bottom: 20px;
+}
+.footer_info1{ 
+  margin-right: 40px;
+}
+.footer_right > .footer_info,
+.footer_right > .address{
+  float: left;
+}
+#main_footer ul li{ 
+  line-height: 1.8em;
+}
+#main_footer .address span{ margin-right: 20px;}
+#main_footer .copy{
+  clear: both;
+  background: #ccc;
+  padding: 20px 0;
+  text-align: center; 
+}
+
+
+
+
+
+
+
